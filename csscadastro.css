@@ -1,0 +1,127 @@
+@font-face {
+
+    src: url(LuciferSans-Medium.ttf);
+    font-family: 'LuciferSansMedium';
+    font-weight: normal;
+} 
+
+body{
+	
+	padding-top: 5%;
+	font-family: 'LuciferSansMedium';
+	background-color: #8400ff;
+	background-image: url("img/Pixe.png");
+}
+
+
+/* Scroolbar */
+::-webkit-scrollbar {
+	width: 15px;
+}
+
+::-webkit-scrollbar-track {
+	background: #45009e;
+}
+
+::-webkit-scrollbar-thumb {
+	background: #8400ff;
+	border-radius: 15px;
+}
+/* Scroolbar */
+
+
+
+div#interface {
+
+	justify-content: center;
+	font-family: 'LuciferSansMedium';
+	width: 35%;
+	background: linear-gradient(-45deg, #7700ff, #b700ff, #7700ff, #b700ff);
+	background-size: 400% 400%;
+	animation: gradient 15s ease infinite;
+	border-radius: 20px;
+	margin: 10px auto 10px auto;
+	padding: 100px;
+}
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+
+form{
+	width: 90%;
+	margin: auto;
+	font-family: sans-serif;
+	font-weight: normal;
+	border-radius: 20px;
+}
+
+fieldset{
+
+	width: 75%;
+	border: 3px solid;
+	border-color: #2b2b2b;
+	border-radius: 20px;
+	margin: auto;
+
+}
+
+legend{
+	font-family: 'LuciferSansMedium';
+	color: #111111;
+}
+
+input{
+	background-color: #e7e7e7;
+	color: #2b2b2b;
+	font-family: 'LuciferSansMedium';
+	border-radius: 20px;
+
+}
+
+option#selecione{
+	background-color: #2b2b2b;
+	color:#ffffff;
+	font-family: 'LuciferSansMedium';
+	margin: 10pc auto 10px auto;
+}
+
+option{
+	background-color: #2b2b2b;
+	color:#ffffff;
+	font-family: 'LuciferSansMedium';
+	margin: 10pc auto 10px auto;
+}
+
+p{
+	font-family: 'LuciferSansMedium';
+	color: #111111;
+}
+
+table{
+	width: 99%;
+	text-align: center;
+}
+th, td{
+	
+	font-size: 9pt;
+	border: 5px solid;
+	border-color: #1111111a;
+	padding: 3px;
+}
+a{
+	color: rgb(0, 0, 0);
+	text-decoration: none;
+}
+a:hover{
+	color: #888;
+	text-decoration: underline;
+}
